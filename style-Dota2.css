@@ -1,0 +1,108 @@
+/*STYLES GENERAUX*/
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/Dota2/d8tt5jj-67b09a44-9d97-4b5a-95aa-7c5cabc3ad0f.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*PREC & SUIV*/
+
+.prec-suiv{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.prec a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 5px 5px;
+}
+.suiv a img{
+    margin-left: 80%;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px 5px 5px;
+}
+
+/*HEADER & FOOTER*/
+
+header .img-h{
+    text-align: center;
+    margin-top: 20px;
+}
+header .img-h img{
+    width: 65%;
+    height: 390px;
+    border-radius: 50px 50px 50px;
+    box-shadow: 0px 0px 15px #333;
+}
+footer{
+    border-top: 2px solid #fff;
+    width: 100%;
+    padding: 30px 0px;
+    box-shadow: 0px 0px 15px #333;
+    background-color: #333;
+}
+
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+
+/*SECTIONS*/
+
+section{
+    margin-left: 125px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.storm-dota2 img, .christal-dota2 img, .sven-dota2 img, .four-dota2 img{
+    width: 550px;
+    height: 350px;
+}
+.three-h-dota2 img, .maj-dota2 img{
+    width: 1100px;
+    height: 550px;
+}
+
+/*SECTION INFOS*/
+.dota-p{
+    text-align: center;
+}
+.dota-p img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #777;
+}
+
+@media screen and (min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+    a:hover{
+        color: #EA0;
+    }
+}

@@ -1,0 +1,139 @@
+/*STYLES GENERAUX*/
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/Steam/d31wkI.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+}
+p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*HEADER & FOOTER*/
+header{
+    width: 100%;
+    height: 240px;
+    border-radius: 50px 0px 50px;
+    border-bottom: 2px solid #fff;
+    padding: 20px;
+    background: url("images/Steam/8IHKHg3.gif") center;
+    background-size: 100%;
+    box-shadow: 0px 0px 15px #333;
+    
+}
+
+footer{
+    border-top: 2px solid #fff;
+    width: 100%;
+    padding: 30px 0px;
+    box-shadow: 0px 0px 15px #333;
+    background-color: black;
+}
+
+footer p{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+
+
+/*SECTIONS*/
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+}
+.section-first{
+    width: 83%;
+    height: 700px;
+    background-image: url("images/Steam/FR_Steam_ID.gif");
+    background-repeat: no-repeat;
+}
+.section-first, .section-finale{
+    border-radius: 12px 12px 12px ;
+}
+
+/*SECTION & FOOTER INFOS*/
+.steam-p, .steam-site p{
+    text-align: left;
+}
+.steam-p img{
+    width: 300px;
+    height: 70px;
+    border: 3px solid #fff;
+    border-radius: 10px 10px 10px ;
+    box-shadow: 0px 0px 10px #777;
+    margin-top: 110px;
+    margin-left: 25px;
+}
+
+.steam-barecode img{
+    width: 250px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 10px 10px 10px ;
+    box-shadow: 0px 0px 10px #777;
+    margin-left: 78%;
+    display: flex;
+}
+
+/*SECTION FINALE*/
+.game{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.game img{
+    width: 180px;
+    height: 150px;
+    box-shadow: 0px 0px 15px #555;
+}
+.game a figcaption, .game-2 a figcaption{
+    text-align: center;
+}
+.game-2{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.game-2 img{
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 15px #555;
+}
+
+@media screen and (min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+    a:hover{
+        color: #EA0;
+    }
+    .game{
+        flex: 0 1 25%;
+    }
+}
